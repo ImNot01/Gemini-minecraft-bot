@@ -19,9 +19,9 @@ const CONFIG = {
   auth: process.env.MC_AUTH || 'offline',
   version: process.env.MC_VERSION || false,
 
-  reconnectDelayMs: 10000,
-  antiAfkMinMs: 800,
-  antiAfkMaxMs: 2500,
+  reconnectDelayMs: 5000,
+  antiAfkMinMs: 600,
+  antiAfkMaxMs: 1500,
 
   password: process.env.MC_PASS || 'ChangeThisPassword123',
   joinCommands: [],
